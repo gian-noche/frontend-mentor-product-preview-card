@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.product-name, .discounted-price {
+    font-family: 'Fraunces', serif;
+}
+
+:root {
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    /*Primary colors*/
+    --green: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+
+    /*Secondary colors*/
+    --dark-blue: hsl(212, 21%, 14%);
+    --grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
