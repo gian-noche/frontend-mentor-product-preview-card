@@ -24,6 +24,7 @@ html {
     /*Secondary colors*/
     --dark-blue: hsl(212, 21%, 14%);
     --grayish-blue: hsl(228, 12%, 48%);
+    --dark-green: hsl(158, 36%, 24%);
     --white: hsl(0, 0%, 100%);
 }
 
@@ -53,7 +54,7 @@ body {
 
 .content {
     background-color: var(--white);
-    padding: 1.5rem;
+    padding: 1.75rem;
 }
 
 .price {
@@ -126,4 +127,9 @@ button {
     font-weight: 700;
     font-size: 1.15rem;
     font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--dark-green);
 }
