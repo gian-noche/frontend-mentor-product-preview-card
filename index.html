@@ -15,32 +15,38 @@
 
 </head>
 <body>
-  <section>
-    <!--Use different product images for each viewport-->
-    <img src="./images/image-product-mobile.jpg" alt="gabrielle chanel perfume">
-    <div>
-      <h1 class="product">PERFUME</h1>
+  <section class="container">
+    <img id="product-image-mobile" src="./images/image-product-mobile.jpg" alt="gabrielle chanel perfume">
 
-      <h2 class="product-name">Gabrielle Essence Eau De Parfum</h2>
+    <div class="content">
+      <!--Use different product images for each viewport-->
+      <div>
+        <h1 class="product">PERFUME</h1>
 
-      <p class="product-description">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+        <h2 class="product-name">Gabrielle Essence Eau De Parfum</h2>
 
-      <div class="price">
-        <strong class="discounted-price">$149.99</strong>
-        <!--Add aria attribute to indicate price meaning-->
-        <p class="original-price">$169.99</p>
-      </div>
+        <p class="product-description">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+
+        <div class="price">
+          <strong class="discounted-price">$149.99</strong>
+          <!--Add aria attribute to indicate price meaning-->
+          <p class="original-price">$169.99</p>
+        </div>
   
-      <button>
-        <img src="./images/icon-cart.svg" alt="shopping cart icon">
-        <a href="#">Add to Cart</a>
-      </button>
+        <button>
+          <img src="./images/icon-cart.svg" alt="shopping cart icon">
+          <a href="#">Add to Cart</a>
+        </button>
+      </div>
     </div>
+
   </section>
 
+  <!--
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  -->
 </body>
 </html>

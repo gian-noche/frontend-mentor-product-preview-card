@@ -26,3 +26,72 @@ html {
     --grayish-blue: hsl(228, 12%, 48%);
     --white: hsl(0, 0%, 100%);
 }
+
+/*Layout*/
+
+body {
+    background-color: var(--cream);
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+#product-image-mobile {
+    width: 100%;
+}
+
+.content {
+    background-color: var(--white);
+    padding: 1.5rem;
+}
+
+.price {
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+button {
+    width: 100%;
+    height: 3.5rem;
+
+    background-color: var(--green);
+    border: none;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.product {
+    margin-top: 0;
+}
+
+/*Font styles*/
+
+.product,
+.product-description,
+.original-price {
+    font-size: 1rem;
+    color: var(--grayish-blue);
+}
+
+.product-name,
+.discounted-price {
+    font-size: 2.5rem;
+}
