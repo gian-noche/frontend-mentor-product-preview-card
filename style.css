@@ -40,6 +40,7 @@ body {
 }
 
 .container {
+    border-radius: 10px;
 
     display: flex;
     justify-content: flex-end;
@@ -110,4 +111,15 @@ button {
 
 .product-description {
     line-height: 1.75rem;
+}
+
+.discounted-price {
+    color: var(--green);
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.15rem;
 }
