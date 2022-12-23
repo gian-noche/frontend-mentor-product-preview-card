@@ -58,6 +58,8 @@ body {
 .price {
     width: 100%;
 
+    margin-bottom: 1rem;
+
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -82,7 +84,12 @@ button {
     margin-top: 0;
 }
 
-/*Font styles*/
+/*Font styles and layout*/
+
+.product {
+    font-weight: normal;
+    letter-spacing: 0.5rem;
+}
 
 .product,
 .product-description,
@@ -94,4 +101,13 @@ button {
 .product-name,
 .discounted-price {
     font-size: 2.5rem;
+}
+
+.product-name {
+    margin: 1rem 0;
+    line-height: 2.5rem;
+}
+
+.product-description {
+    line-height: 1.75rem;
 }
