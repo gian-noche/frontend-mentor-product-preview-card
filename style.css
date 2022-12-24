@@ -41,20 +41,27 @@ body {
 }
 
 .container {
+    width: 95vw;
+
+    /*Not sure why border-radius can't be seen on child elements*/
     border-radius: 10px;
 
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
+
 #product-image-mobile {
+    border-radius: 10px 10px 0 0;
+    
     width: 100%;
 }
 
 .content {
     background-color: var(--white);
     padding: 1.75rem;
+    border-radius: 0 0 10px 10px;
 }
 
 .price {
