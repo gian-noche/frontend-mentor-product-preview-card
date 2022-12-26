@@ -1,3 +1,7 @@
+ @media screen and (min-width: 750px) {
+    
+ }
+
 *,
 *::after,
 *::before {
@@ -41,7 +45,7 @@ body {
 }
 
 .container {
-    width: 95vw;
+    width: 92vw;
 
     /*Not sure why border-radius can't be seen on child elements*/
     border-radius: 10px;
@@ -51,15 +55,16 @@ body {
     flex-wrap: wrap;
 }
 
-
 #product-image-mobile {
     border-radius: 10px 10px 0 0;
-    
     width: 100%;
+
+    vertical-align: bottom;
 }
 
 .content {
     background-color: var(--white);
+    margin: 0;
     padding: 1.75rem;
     border-radius: 0 0 10px 10px;
 }

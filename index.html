@@ -16,10 +16,22 @@
 </head>
 <body>
   <section class="container">
-    <img id="product-image-mobile" src="./images/image-product-mobile.jpg" alt="gabrielle chanel perfume">
+
+    <!--Challenge provides different product images for each viewport-->
+    <picture>
+      <source
+      id="product-image-desktop"
+      srcset="./images/image-product-desktop.jpg"
+      media="(min-width: 750px)"
+      alt="gabrielle chanel perfume">
+
+      <img
+      id="product-image-mobile"
+      src="./images/image-product-mobile.jpg"
+      alt="gabrielle chanel perfume">
+    </picture>
 
     <div class="content">
-      <!--Use different product images for each viewport-->
       <div>
         <h1 class="product">PERFUME</h1>
 
