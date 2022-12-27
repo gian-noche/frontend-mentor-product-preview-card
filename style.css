@@ -2,16 +2,32 @@
     .container {
         width: 375px;
     }
+
+    picture {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .content {
+        border-radius: 0 0 10px 10px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
     .container {
-        max-width: 700px;
+        max-width: 625px;
         width: 50%;
     }
 
     picture, .content {
         width: 50%;
+    }
+
+    picture {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .content {
+        border-radius: 0 10px 10px 0;
     }
 }
 
@@ -65,7 +81,7 @@ body {
 }
 
 #product-image-mobile {
-    border-radius: 10px 10px 0 0;
+    border-radius: inherit;
     width: 100%;
 
     display: block;
@@ -74,14 +90,9 @@ body {
 .content {
     background-color: var(--white);
     padding: 1.75rem;
-    border-radius: 0 0 10px 10px;
 
     display: flex;
     align-items: center;
-}
-
-.content div {
-    overflow: hidden;
 }
 
 .price {
