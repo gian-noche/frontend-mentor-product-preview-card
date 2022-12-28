@@ -81,9 +81,9 @@ body {
 }
 
 #product-image-mobile {
-    border-radius: inherit;
     width: 100%;
 
+    /*This removes the white space below the image*/
     display: block;
 }
 
