@@ -152,6 +152,25 @@ button {
     line-height: 1.75rem;
 }
 
+/*screen reader accessibility*/
+.original-price::before, .original-price::after {
+    clip-path: inset(100%);
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+  }
+
+.original-price::before {
+    content: " [start of stricken text] ";
+}
+
+.original-price::after {
+    content: " [end of stricken text] ";
+}
+
 .discounted-price {
     color: var(--green);
 }
