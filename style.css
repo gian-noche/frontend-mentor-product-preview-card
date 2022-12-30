@@ -176,10 +176,6 @@ button {
     color: var(--green);
 }
 
-a {
-    text-decoration: none;
-}
-
 button {
     color: var(--white);
     font-weight: 700;
